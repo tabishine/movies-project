@@ -7,6 +7,7 @@ import { MovieDetailPage } from "../movie-detail/movie-detail";
 @Component({
   selector: "page-movies",
   templateUrl: "movies.html",
+  //styleUrls: ['movies.scss']
 })
 export class MoviesPage {
   movies: any[];

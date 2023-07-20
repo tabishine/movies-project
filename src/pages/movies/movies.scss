@@ -1,3 +1,29 @@
-page-movies {
+.movie-card {
+  ion-card {
+    background-color: transparent;
+    box-shadow: none;
+    ion-card-header {
+      ion-thumbnail {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px 4px 8px 4px;
+      }
 
+      ion-card-title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 0;
+      }
+    }
+
+    ion-card-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 8px;
+      height: 100%;
+    }
+  }
+  margin: 10px;
 }

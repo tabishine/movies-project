@@ -7,6 +7,4 @@ import { MoviesPage } from "../movies/movies";
   declarations: [MovieDetailPage, MoviesPage],
   imports: [IonicPageModule.forChild(MovieDetailPage), IonicPageModule.forChild(MoviesPage)],
 })
-export class MovieDetailPageModule{}
-
-
+export class MovieDetailPageModule{};
