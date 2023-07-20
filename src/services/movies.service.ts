@@ -1,9 +1,9 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Injectable } from "@angular/core";
+import { HttpClient } from "@angular/common/http";
 
 @Injectable()
 export class MoviesService {
-  private apiUrl = 'http://www.omdbapi.com/?apikey=905483bc';
+  private apiUrl = "http://www.omdbapi.com/?apikey=905483bc";
 
   constructor(private http: HttpClient) {}
 
@@ -17,4 +17,3 @@ export class MoviesService {
     return this.http.get(url);
   }
 }
-
